@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: rgb(112, 174, 110);
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: rgb(190, 238, 98);
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: rgb(190, 238, 98);
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: rgb(190, 238, 98);
+  padding: 10px;
+}
+
+/* Style the footer */
+footer {
+  background-color: rgb(112, 174, 110);
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+
+
+<header>
+  <h2>Perros En Busca De Adopcion</h2>
+  <h4></h4>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="C:\Users\ignac\Desktop\pyj\cosas de programación\TAREA ACTIVIDAD 1\Redireccionamiento\Perros\Leo.html"><button>Leo</button></a></li>
+      <img src="https://as01.epimg.net/diarioas/imagenes/2021/11/07/actualidad/1636307686_778477_1636307902_noticia_normal_recorte1.jpg" alt="Leo" width="300" height="210">
+      <li><a href="C:\Users\ignac\Desktop\pyj\cosas de programación\TAREA ACTIVIDAD 1\Redireccionamiento\Perros\Lucas.html"><button>Lucas</button></a></li>
+      <img src="https://images.ecestaticos.com/H8vy10Joc8MAXBy_4CgYB6bZMMk=/0x0:2121x1414/1200x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F3c7%2Fe00%2F3e1%2F3c7e003e1dc57b90e0801dd7a786ef5b.jpg" alt="Lucas" width="300" height="210">
+      <li><a href="C:\Users\ignac\Desktop\pyj\cosas de programación\TAREA ACTIVIDAD 1\Redireccionamiento\Perros\Luna.html"><button>Luna</button></a></li>
+      <img src="https://www.eltiempo.com/files/image_640_428/files/crop/uploads/2021/09/06/6136a57f9a611.r_1643437933157.0-297-3000-1798.jpeg" alt="luna" width="300" height="210">
+    </ul>
+  </nav>
+  
+  <article>
+    <li><a href="C:\Users\ignac\Desktop\pyj\cosas de programación\TAREA ACTIVIDAD 1\Principal\Actividad1.html"><button>Volver</button></a></li>
+    <img src="https://educacionyadiestramiento.com/wp-content/uploads/2017/01/CABEZA-SETTER.png" alt="perro 2" width="310" height="210">
+  </article>
+</section>
+
+<footer>
+  <p>pagina creada por Ignacio Flores</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: rgb(112, 174, 110);
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: rgb(190, 238, 98);
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: rgb(190, 238, 98);
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: rgb(190, 238, 98);
+  padding: 10px;
+}
+
+/* Style the footer */
+footer {
+  background-color: rgb(112, 174, 110);
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+
+
+<header>
+  <h2>¡Ayuda A Un Peludo!</h2>
+  <h4>"Nuestra labor como ONG es buscar un hogar a animales que lo requieren"</h4>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="C:\Users\ignac\Desktop\pyj\cosas de programación\TAREA ACTIVIDAD 1\Redireccionamiento\Perros.html"><button>Perros</button></a></li>
+      <img src="https://educacionyadiestramiento.com/wp-content/uploads/2017/01/CABEZA-SETTER.png" alt="perro" width="300" height="210">
+      <li><a href="C:\Users\ignac\Desktop\pyj\cosas de programación\TAREA ACTIVIDAD 1\Redireccionamiento\Gatos.html"><button>Gatos</button></a></li>
+      <img src="https://images.vexels.com/media/users/3/132714/isolated/preview/74d58196411ca35175184c3436cb31fc-cara-de-gato-bruja.png" alt="gato" width="300" height="210">
+      <li><a href="C:\Users\ignac\Desktop\pyj\cosas de programación\TAREA ACTIVIDAD 1\Redireccionamiento\Aves.html"><button>Aves</button></a></li>
+      <img src="https://www.logocrea.com/wp-content/uploads/2016/07/pajaro1.png" alt="pajaro" width="300" height="210">
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>ONG-Ayuda A Un Peludo</h1>
+    <h2>Nuestros Integrantes:</h2>
+    <p>Numero 1: Ignacio Flores</p>
+    <p>Numero 2: Xavier Baeza</p>
+    <p>Numero 3: Martin Sandoval</p>
+  </article>
+</section>
+
+<footer>
+  <p>Pagina Creada Por Ignacio Flores</p>
+</footer>
+
+</body>
+</html>
